@@ -13,3 +13,4 @@ class Solution:
 tan = Solution()
 run = tan.longestCommonPrefix(str)
 print(run)
+

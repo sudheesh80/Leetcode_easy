@@ -5,3 +5,4 @@ tan = Solution()
 x = int(input(print("Enter the Roamn number to convert to Intiger:")))
 run = tan.isPalindrome(x)
 print(run)
+

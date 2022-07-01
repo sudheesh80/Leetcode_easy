@@ -1,5 +1,13 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
+        if len(needle) == 0:
+            return 0
+        if haystack.find(needle) != -1:
+            return haystack.index(needle)
+        else:
+            return -1
+        
+        # Below is another way of doing it
         x = 0
         while x < len(haystack):
             if haystack[x:len(needle)+x] == needle:

@@ -22,3 +22,4 @@ needle = "ba"
 ans = Solution()
 run = ans.strStr(haystack,needle)
 print(run)
+
